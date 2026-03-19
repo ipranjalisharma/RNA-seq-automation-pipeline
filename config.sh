@@ -11,7 +11,7 @@ THREADS=16
 
 #  Conda environment names 
 ENV_HISAT="hisat2_env"
-ENV_SAMTOOLS="star_env"          # rename if you have a dedicated samtools env
+ENV_SAMTOOLS="samtools_env"          # rename if you have a dedicated samtools env
 ENV_FEATURECOUNTS="featurecounts"
 ENV_R="r_env"                    # env that has R + DESeq2 + ggplot2
 
