@@ -70,7 +70,7 @@ All output folders are created automatically during the run.
 | MultiQC | ≥ 1.19 | base or any |
 | fastp | ≥ 0.23 | base or any |
 | HISAT2 | ≥ 2.2 | `hisat2_env` |
-| samtools | ≥ 1.18 | `star_env` |
+| samtools | ≥ 1.18 | `samtools_env` |
 | featureCounts (Subread) | ≥ 2.0 | `featurecounts` |
 | R | ≥ 4.3 | `r_env` |
 
