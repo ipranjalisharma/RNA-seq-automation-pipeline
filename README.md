@@ -75,6 +75,15 @@ NOTE: WORKDIR is automatically set to the project directory when running the pip
 
 > Conda environment names are just defaults. Change them in `config.sh` to match your setup.
 
+##System Requirements
+
+RAM: 16 GB minimum (32 GB recommended for human genome)
+
+Storage: Allow 2-3× raw data size for intermediate files
+
+CPU: Multi-core recommended (set THREADS appropriately)
+
+
 ### R packages
 
 Install once inside your R environment:
