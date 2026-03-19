@@ -342,10 +342,10 @@ Reduce `THREADS` in `config.sh`, or request more RAM. HISAT2 typically requires 
 
 If you use this pipeline, please cite the underlying tools:
 
-- **FastQC** — Andrews S. (2010). https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
-- **MultiQC** — Ewels et al. (2016). *Bioinformatics*, 32(19):3047–3048.
-- **fastp** — Chen et al. (2018). *Bioinformatics*, 34(17):i884–i890.
-- **HISAT2** — Kim et al. (2019). *Nature Methods*, 16:3.
-- **samtools** — Danecek et al. (2021). *GigaScience*, 10(2).
-- **featureCounts** — Liao et al. (2014). *Bioinformatics*, 30(7):923–930.
-- **DESeq2** — Love et al. (2014). *Genome Biology*, 15:550.
+- **FastQC** — Andrews, S., 2017. FastQC: a quality control tool for high throughput sequence data. 2010 [online]
+- **MultiQC** — Ewels, P., Magnusson, M., Lundin, S. and Käller, M., 2016. MultiQC: summarize analysis results for multiple tools and samples in a single report. Bioinformatics, 32(19), pp.3047-3048.
+- **fastp** — Chen, S., Zhou, Y., Chen, Y. and Gu, J., 2018. fastp: an ultra-fast all-in-one FASTQ preprocessor. Bioinformatics, 34(17), pp.i884-i890.
+- **HISAT2** — Kim, D., Paggi, J.M., Park, C., Bennett, C. and Salzberg, S.L., 2019. Graph-based genome alignment and genotyping with HISAT2 and HISAT-genotype. Nature biotechnology, 37(8), pp.907-915.
+- **samtools** — Li, H., Handsaker, B., Wysoker, A., Fennell, T., Ruan, J., Homer, N., Marth, G., Abecasis, G., Durbin, R. and 1000 Genome Project Data Processing Subgroup, 2009. The sequence alignment/map format and SAMtools. bioinformatics, 25(16), pp.2078-2079.
+- **featureCounts** — Liao, Y., Smyth, G.K. and Shi, W., 2014. featureCounts: an efficient general purpose program for assigning sequence reads to genomic features. Bioinformatics, 30(7), pp.923-930.
+- **DESeq2** — Love, M.I., Huber, W. and Anders, S., 2014. Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. Genome biology, 15(12), p.550.
