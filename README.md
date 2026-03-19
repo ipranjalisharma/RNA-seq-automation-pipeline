@@ -75,7 +75,7 @@ NOTE: WORKDIR is automatically set to the project directory when running the pip
 
 > Conda environment names are just defaults. Change them in `config.sh` to match your setup.
 
-##System Requirements
+## System Requirements
 
 RAM: 16 GB minimum (32 GB recommended for human genome)
 
