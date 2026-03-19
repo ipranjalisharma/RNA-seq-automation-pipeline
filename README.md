@@ -55,8 +55,7 @@ project/
     ├── Sample_B1_1.fastq.gz
     └── Sample_B1_2.fastq.gz
 ```
-
-All output folders are created automatically during the run.
+NOTE: WORKDIR is automatically set to the project directory when running the pipeline. All output folders are created automatically during the run.
 
 ---
 
@@ -128,14 +127,17 @@ LFC_CUTOFF=1
 Create a tab-separated file with no header — two columns: sample name and condition. The sample name must exactly match the FASTQ basename (without `_1.fastq.gz`).
 
 ```
-Sample_A1	control
-Sample_A2	control
-Sample_A3	control
-Sample_B1	treatment
-Sample_B2	treatment
-Sample_B3	treatment
+Sample_A1    control
+Sample_A2    control
+Sample_A3    control
+Sample_B1    treatment
+Sample_B2    treatment
+Sample_B3    treatment
 ```
-
+Can create using this bash command:
+``` bash
+printf "Sample_A1\tcontrol\nSample_B1\ttreatment\n" > metadata.tsv
+```
 Save it anywhere and point `METADATA` in `config.sh` to it.
 
 ### 3. Name your FASTQ files
