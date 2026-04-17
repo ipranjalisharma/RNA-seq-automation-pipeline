@@ -23,6 +23,11 @@ A generic, end-to-end paired-end RNA-seq pipeline covering raw QC through to dif
 
 ```
 Raw FASTQ → QC → Trimming → Re-QC → Alignment → BAM processing → Counting → Normalisation → DEG Analysis
+
+<img width="2880" height="1620" alt="CTFBind_universal_NEW1_11" src="https://github.com/user-attachments/assets/e9f7718a-299c-4f73-a5db-78a3ab8f97f2" />
+
+
+
 ```
 
 | Step | Tool | Output |
